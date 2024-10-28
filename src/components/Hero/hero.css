@@ -1,0 +1,154 @@
+.heroitems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+}
+.desc {
+  height: 50vh;
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--neon-green);
+  z-index: 0;
+}
+
+.line1,
+.line2 {
+  font-family: "Amulya-medium";
+}
+
+.line1 {
+  font-size: 1.5rem;
+}
+
+.name {
+  font-family: "Humane";
+  font-weight: 700;
+  font-size: 20rem;
+  text-align: center;
+  line-height: 18rem;
+  vertical-align: baseline;
+  line-height: 300px;
+  margin-bottom: 13px;
+  height: 250px;
+  word-wrap: nowrap;
+  -webkit-font-smooth: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.line2 {
+  font-size: 1.3rem;
+  width: 349px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedinacc,
+.githubacc {
+  width: 2.5rem;
+}
+.infinitescroll {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.arrow-Down {
+  display: none;
+  color: var(--neon-green);
+}
+
+@media (max-width: 1367px) {
+  .heroitems {
+    height: 80vh;
+  }
+  .infinitescroll {
+    min-height: 100vh;
+  }
+  .name {
+    font-size: 15rem;
+    line-height: 200px;
+    height: 170px;
+    margin: 10px 0;
+  }
+  .line1 {
+    font-size: 1.5rem;
+  }
+  .line2 {
+    font-size: 1rem;
+    width: 75%;
+  }
+  .socials {
+    margin-top: 1rem;
+  }
+  .linkedinacc,
+  .githubacc {
+    width: 2rem;
+  }
+  .infinitescroll {
+    height: 50rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroitems {
+    height: 80vh;
+    flex-direction: column;
+  }
+  .desc {
+    height: fit-content;
+    top: -45px;
+    position: relative;
+  }
+  .name {
+    font-size: 13rem;
+    line-height: 175px;
+    margin: 5px 0 5px 0;
+    height: 150px;
+  }
+  .line1 {
+    font-size: 1rem;
+  }
+  .line2 {
+    font-size: 0.9rem;
+    width: 75%;
+  }
+  .socials {
+    display: none;
+  }
+  .linkedinacc,
+  .githubacc {
+    width: 1.5rem;
+  }
+  .infinitescroll {
+    top: 50px;
+    height: 50rem;
+    justify-content: center;
+  }
+  .arrow-Down {
+    display: block;
+    color: var(--neon-green);
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 70px;
+  }
+}
+/* @media (max-width: 741px) {
+  .heroitems {
+    height: 80vh;
+  }
+} */

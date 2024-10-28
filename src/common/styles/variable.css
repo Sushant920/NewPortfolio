@@ -1,0 +1,14 @@
+:root {
+  --bg-black: #0d1117;
+  --bg-grey: #2c2b2b;
+  --white: #ffffff;
+  --neon-green: #d5ff3f;
+  --dark-blue: #242938;
+  --black-blue: #161b22;
+  --grey: #8b949e;
+}
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}

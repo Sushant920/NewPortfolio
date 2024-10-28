@@ -1,0 +1,113 @@
+body {
+  font-family: "Nunito-Regular";
+}
+.home_contact-container {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 3rem;
+  background-color: var(--neon-green);
+  color: var(--black-blue);
+  border-radius: 10px;
+}
+
+.right_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+}
+.follow_me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+.getintouch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+.contact-heading {
+  font-family: "Humane";
+  font-size: 3rem;
+}
+
+.contact-desc {
+  width: 60%;
+  text-align: left;
+  font-size: 1.3rem;
+}
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: 2px solid var(--black-blue);
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--black-blue);
+  transition: all 0.1s;
+}
+.contact-link h3 {
+  font-size: 1rem;
+  font-family: "Amulya-regular";
+}
+
+.contact-link:hover {
+  background-color: var(--black-blue);
+  color: var(--white);
+}
+
+.contact_socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact_socials a {
+  text-decoration: none;
+  color: var(--black-blue);
+
+  font-size: 30px;
+}
+
+@media (max-width: 1025px) {
+  .home_contact-container {
+    padding: 3rem;
+    gap: 1rem;
+  }
+  .getintouch {
+    width: 100%;
+  }
+  .contact-desc {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .field {
+    font-weight: 500;
+  }
+  .home_contact-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 0;
+  }
+  .follow_me {
+    display: none;
+  }
+  .contact-link {
+    width: 100%;
+  }
+  .right_container {
+    width: 100%;
+  }
+}

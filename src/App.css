@@ -1,0 +1,64 @@
+::selection {
+  background: var(--dark-blue);
+  color: #fff;
+}
+
+::-moz-selection {
+  background: var(--neon-green);
+  color: #000;
+}
+.App {
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.loader_Overlay {
+  z-index: 100;
+  position: fixed;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.work_in_progress {
+  padding: 5px;
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+}
+
+.Screen_Small {
+  display: none;
+}
+@media (max-width: 768px) {
+  /* .Header {
+    display: none;
+  } */
+}
+
+@media (max-width: 320px) {
+  .main_Screen {
+    display: none;
+  }
+  .Screen_Small {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 30px;
+    margin-top: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 80%;
+    border-radius: 20px;
+    background-color: var(--dark-blue);
+  }
+}

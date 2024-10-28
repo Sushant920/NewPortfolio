@@ -1,0 +1,227 @@
+body {
+  color: var(--white);
+}
+
+.projects {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+.projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  background-color: var(--black-blue);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.projects-header h1 {
+  font-family: "Humane";
+  font-size: 5rem;
+}
+.more-projects {
+  text-decoration: none;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--black-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 10px;
+  gap: 5px;
+}
+
+.more-projects h2 {
+  color: var(--white);
+  font-family: "Amulya-Bold";
+  font-size: 1rem;
+}
+.more-projects:hover {
+  padding: 5px 10px;
+  border: 2px solid var(--neon-green);
+}
+
+.more-projects_mobile {
+  display: none;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--black-blue);
+  height: 100%;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: var(--white);
+}
+.mobile {
+  display: none;
+}
+
+.project-image {
+  border-radius: 15px 15px 0 0;
+  height: fit-content;
+}
+
+.project-desc {
+  margin: 20px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.project-desc h2 {
+  font-size: 24px;
+  font-family: "Amulya-Bold";
+  white-space: nowrap;
+}
+.project_type {
+  color: var(--neon-green);
+  font-family: "Nunito-regular";
+  font-size: 1rem;
+}
+.project-desc p {
+  font-family: "Nunito-regular";
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+  color: var(--grey);
+}
+.project-tech {
+  padding: 5px 5px 5px 0;
+  height: 3.2rem;
+}
+
+.project-container:hover {
+  border: 2px solid #0000;
+  background: linear-gradient(#131219, #131219) padding-box,
+    linear-gradient(var(--angle), #070707, var(--neon-green)) border-box;
+  animation: 8s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.demo-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: var(--neon-green);
+}
+
+@media (max-width: 1367px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .project-container {
+    border: 2px solid #0000;
+    background: linear-gradient(#131219, #131219) padding-box,
+      linear-gradient(var(--angle), #070707, var(--neon-green)) border-box;
+    animation: 8s rotate linear infinite;
+  }
+  .project-desc {
+    gap: 10px;
+  }
+  .project-desc p {
+    font-size: 0.9rem;
+    margin: 0;
+    height: fit-content;
+  }
+  .project-desc h2 {
+    font-size: 1.3rem;
+  }
+  .project-image {
+    height: fit-content;
+  }
+  .project-tech {
+    height: 3.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    padding: 10px 0;
+  }
+  .projects-header {
+    background-color: transparent;
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+  }
+  .projects-header h1 {
+    padding: 20px 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--black-blue);
+    font-size: 4rem;
+  }
+  .more-projects {
+    display: none;
+  }
+  .more-projects_mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.7rem;
+    border: 1px solid var(--neon-green);
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 10px;
+    color: var(--white);
+    background-color: var(--black-blue);
+  }
+  .more-projects_mobile h2 {
+    font-size: 0.8rem;
+  }
+  .projects-section {
+    font-size: 2rem;
+  }
+
+  .project-container {
+    height: fit-content;
+    border: 2px solid #0000;
+    background: linear-gradient(#131219, #131219) padding-box,
+      linear-gradient(var(--angle), #070707, var(--neon-green)) border-box;
+    animation: 8s rotate linear infinite;
+  }
+  .project-desc {
+    align-items: flex-start;
+    text-align: left;
+    gap: 5px;
+    margin: 15px 20px;
+  }
+  .project-desc p {
+    font-size: 0.8rem;
+  }
+  .project-desc h2 {
+    font-size: 1.3rem;
+  }
+  .project-tech {
+    padding: 10px 10px 10px 0;
+    height: 3.3rem;
+  }
+  .project_type {
+    font-size: 0.8rem;
+  }
+  .mobile {
+    display: block;
+  }
+}
