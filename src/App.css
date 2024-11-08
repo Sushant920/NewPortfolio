@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
   } */
 }
 
-@media (max-width: 320px) {
+@media (max-width: 319px) {
   .main_Screen {
     display: none;
   }
