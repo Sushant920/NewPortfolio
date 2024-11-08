@@ -4,7 +4,6 @@ import About from "../../components/About/About";
 import Projects from "../../components/Recent-Projects/Projects";
 import "./homepage.css";
 import Contact from "../../components/Contact/Contact";
-import Behanceprjs from "../../components/BehancePrjs/Behanceprjs";
 const Homepage = () => {
   document.title = "Portfolio | Home";
   return (
@@ -16,9 +15,6 @@ const Homepage = () => {
 
         <div id="about-page">
           <About />
-        </div>
-        <div className="behanceprjs">
-          <Behanceprjs />
         </div>
         <div id="projects-page">
           <Projects />

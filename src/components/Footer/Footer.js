@@ -1,11 +1,5 @@
 import React from "react";
 import "./footer.css";
-import {
-  UilInstagramAlt,
-  UilYoutube,
-  UilLinkedin,
-  UilGithub,
-} from "@iconscout/react-unicons";
 import { NavLink } from "react-router-dom";
 import { animateScroll } from "react-scroll";
 import logo from "../../common/images/LOGO FINAL white png.png";
@@ -23,24 +17,10 @@ const Footer = () => {
       </div>
       <div className="footer-r">
       <p className="footer-userdesc">
-        Crafting <span>innovative solutions</span> <br></br> one{" "}
-        <span>line of code</span> at a time.
+        Code that <span>empowers,</span> <br></br> 
+        ideas that <span>inspire,</span> <br></br> 
+        projects that <span>transform.</span>
       </p>
-        {/* <div className="icons">
-          <a href="">
-            <UilInstagramAlt size="30" color="#d5ff3f" />
-          </a>
-
-          <a href="">
-            <UilLinkedin size="30" color="#d5ff3f" />
-          </a>
-          <a href="">
-            <UilGithub size="30" color="#d5ff3f" />
-          </a>
-          <a href="">
-            <UilYoutube size="30" color="#d5ff3f" />
-          </a>
-        </div> */}
         <div className="footer-text">
           <p>Portfolio</p>
           <p>© 2024 Sushant</p>

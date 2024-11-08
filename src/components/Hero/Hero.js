@@ -21,10 +21,11 @@ const Hero = () => {
           <a
             href="https://www.linkedin.com/in/chavansushant/"
             target={"_blank"}
+            rel="noreferrer"
           >
             <img src={linkedin} alt="Linkedinacc" className="linkedinacc" />
           </a>
-          <a href="https://github.com/Sushant920" target={"_blank"}>
+          <a href="https://github.com/Sushant920" target={"_blank"} rel="noreferrer">
             <img src={github} alt="githubacc" className="githubacc" />
           </a>
         </div>

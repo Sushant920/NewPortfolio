@@ -34,22 +34,25 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/sushant.sopan.chavan"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
               href="https://www.youtube.com/@sushantchavan3473"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faYoutube} />
             </a>
             <a
               href="https://www.linkedin.com/in/chavansushant"
               target={"_blank"}
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
-            <a href="https://github.com/Sushant920" target={"_blank"}>
+            <a href="https://github.com/Sushant920" target={"_blank"} rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>

@@ -31,16 +31,6 @@ function AboutCarousel() {
             height="40"
             alt="tailwindcss logo"
           />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg"
-            height="40"
-            alt="qt logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-            height="40"
-            alt="cplusplus logo"
-          />
 
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
@@ -49,38 +39,45 @@ function AboutCarousel() {
           />
 
           <img
-            src="https://skillicons.dev/icons?i=ps"
-            height="40"
-            alt="adobephotoshop logo"
-          />
-
-          <img
-            src="https://skillicons.dev/icons?i=ai"
-            height="40"
-            alt="adobeillustrator logo"
-          />
-          <img
-            src="https://skillicons.dev/icons?i=pr"
-            height="40"
-            alt="adobepremierepro logo"
-          />
-
-          <img
-            src="https://skillicons.dev/icons?i=ae"
-            height="40"
-            alt="adobeaftereffects logo"
-          />
-
-          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
             height="40"
             alt="nodejs logo"
+          />
+
+<img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            height="40"
+            alt="mongodb logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            height="40"
+            alt="express logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            height="40"
+            alt="nextjs logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+            height="40"
+            alt="swift logo"
           />
 
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
             height="40"
             alt="materialui logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg"
+            height="40"
+            alt="prisma logo"
           />
         </div>
         <div className="carousel-content">
@@ -109,44 +106,11 @@ function AboutCarousel() {
             height="40"
             alt="tailwindcss logo"
           />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qt/qt-original.svg"
-            height="40"
-            alt="qt logo"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-            height="40"
-            alt="cplusplus logo"
-          />
 
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
             height="40"
             alt="figma logo"
-          />
-
-          <img
-            src="https://skillicons.dev/icons?i=ps"
-            height="40"
-            alt="adobephotoshop logo"
-          />
-
-          <img
-            src="https://skillicons.dev/icons?i=ai"
-            height="40"
-            alt="adobeillustrator logo"
-          />
-          <img
-            src="https://skillicons.dev/icons?i=pr"
-            height="40"
-            alt="adobepremierepro logo"
-          />
-
-          <img
-            src="https://skillicons.dev/icons?i=ae"
-            height="40"
-            alt="adobeaftereffects logo"
           />
 
           <img
@@ -156,9 +120,39 @@ function AboutCarousel() {
           />
 
           <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+            height="40"
+            alt="mongodb logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+            height="40"
+            alt="express logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            height="40"
+            alt="nextjs logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+            height="40"
+            alt="swift logo"
+          />
+
+          <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
             height="40"
             alt="materialui logo"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg"
+            height="40"
+            alt="prisma logo"
           />
         </div>
       </div>

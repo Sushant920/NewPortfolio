@@ -6,7 +6,7 @@ import { Squash as Hamburger } from "hamburger-react";
 
 const Header = () => {
   const location = useLocation();
-  const [currentSection, setCurrentSection] = useState("home");
+  const [setCurrentSection] = useState("home");
   const homescrollToTop = () => {
     scroll.scrollToTop();
     setCurrentSection("home");
@@ -45,14 +45,6 @@ const Header = () => {
           onClick={projectscrollToTop}
         >
           <h3 className="projects-nav">Projects</h3>
-        </NavLink>
-        <NavLink
-          exact
-          to="/gallery"
-          className={location.pathname.startsWith("/gallery") ? "active" : ""}
-          onClick={projectscrollToTop}
-        >
-          <h3 className="home-nav">Gallery</h3>
         </NavLink>
         <NavLink
           to="/contact"
@@ -101,19 +93,6 @@ const Header = () => {
               }}
             >
               <h3 className="projects-nav">Projects</h3>
-            </NavLink>
-            <NavLink
-              exact
-              to="/gallery"
-              className={
-                location.pathname.startsWith("/gallery") ? "active" : ""
-              }
-              onClick={() => {
-                projectscrollToTop();
-                toggleNav();
-              }}
-            >
-              <h3 className="home-nav">Gallery</h3>
             </NavLink>
             <NavLink
               to="/contact"

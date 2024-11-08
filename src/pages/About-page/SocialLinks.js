@@ -6,44 +6,40 @@ import {
   faGithub,
   faInstagram,
   faYoutube,
-  faBehance,
 } from "@fortawesome/free-brands-svg-icons";
 const SocialLinks = () => {
   return (
     <div className="SocialLinks_Container">
       <div className="Socials">
         <a
-          href="https://www.instagram.com/rahuulllllllllll"
+          href="https://www.instagram.com/sushant.sopan.chavan"
           target={"_blank"}
-          aria-label="Instagram | rahuulllllllllll"
+          rel="noopener noreferrer"
+          aria-label="Instagram | sushant.sopan.chavan"
         >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a
-          href="https://www.youtube.com/@user-dy8qp9zn3v"
+          href="https://www.youtube.com/@sushantchavan3473"
           target={"_blank"}
-          aria-label="Youtube"
+          rel="noopener noreferrer"
+          aria-label="Youtube | sushantchavan3473"
         >
           <FontAwesomeIcon icon={faYoutube} />
         </a>
         <a
-          href="https://www.behance.net/rahuls39"
+          href="https://www.linkedin.com/in/chavansushant/"
           target={"_blank"}
-          aria-label="Behance | rahuls39"
-        >
-          <FontAwesomeIcon icon={faBehance} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/rahul-s-a5a375252/"
-          target={"_blank"}
-          aria-label="LinkedIn | Rahul S"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn | chavansushant"
         >
           <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
         <a
-          href="https://github.com/srahul099"
+          href="https://github.com/Sushant920"
           target={"_blank"}
-          aria-label="gitHub | srahul099"
+          rel="noopener noreferrer"
+          aria-label="gitHub | Sushant920"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
