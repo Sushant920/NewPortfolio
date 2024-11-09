@@ -4,22 +4,22 @@ const Heroanim = () => {
   return (
     <div className="container">
       <div className="infinitehorizonscroll">
-        <div className="infinitehorizon1">
+      <div className="infinitehorizon1">
           <span>
-            UI Designer UI Designer UI Designer UI Designer UI Designer
+            Frontend Developer Frontend Developer Frontend Developer Frontend
+            Developer
           </span>
           <span>
-            UI Designer UI Designer UI Designer UI Designer UI Designer
+            Frontend Developer Frontend Developer Frontend Developer Frontend
+            Developer
           </span>
         </div>
         <div className="infinitehorizon2">
           <span>
-            Frontend Developer Frontend Developer Frontend Developer Frontend
-            Developer
+            Singer Guitarist Singer Guitarist Singer Guitarist Singer Guitarist Singer Guitarist
           </span>
           <span>
-            Frontend Developer Frontend Developer Frontend Developer Frontend
-            Developer
+          Singer Guitarist Singer Guitarist Singer Guitarist Singer Guitarist Singer Guitarist
           </span>
         </div>
       </div>
